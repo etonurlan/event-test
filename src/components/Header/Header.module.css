@@ -1,0 +1,58 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #191919;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.header__nav {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+.header__icon {
+  width: 24px;
+  height: 24px;
+  fill: #b8b8b8;
+  cursor: pointer;
+}
+
+.header__icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  fill: #8B57C6;
+}
+
+.header__basketLink {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__basketBadge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #ff3b30; 
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+}
